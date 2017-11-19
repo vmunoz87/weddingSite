@@ -35,4 +35,3 @@ function countDown(){
 $(document).ready(function(){
     $('.parallax').parallax();
   });
-      
