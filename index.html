@@ -12,35 +12,93 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="./css/materialize.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="./css/vmz.css" media="screen,projection" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.js"></script>
-    <!--IMPORTING CHART.js -> VMZ -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
+    
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="./js/materialize.js"></script>
-    <script type="text/javascript" src="./js/vmz.js"></script>
 
-    <title>Marta and Vicente</title>
-
-    <!--FUNCTION Importing header from external HTML-->
+    <title>Marta & Vicente</title>
 
 </head>
-   
-
 <body>
 
-    <div class="container" id="main-cont">
-        <h1><strong>Marta And Vicente's Wedding</strong></h1>
-		<h3><strong>Que empiece la fiesta</strong></h3>
-	</div>
-
-        <div class="container" id="main-cont">
-        <h1><strong>Let's keep in touch</strong></h1>
-		<h3><strong>Make that day unforgettable for all of us</strong></h3>
-	</div>
+	<div class="parallax-container" id="paralxax-cont1">
+    <div class="parallax"><img src="./images/decoBoda.jpg"></div>
+    <h1 class="black-text text-accent-4"><strong>Marta & Vicente's Wedding</strong></h1>
+  	</div>
     
+    <div class="section white">
+	    <div class="row container" id="cont1">
+			<h1 class="blue-grey-text text-darken-4">Save the date : </h1> 
+	    	<h2 class="red-text text-lighten-2 z-depth-1"><strong>17-08-2018</strong></h2>
+	    	<p class="red-text text-lighten-3" id="countDown"> <script src="./js/vmz.js" onload="countDown()"></script></p>
+	    </div>
+    </div>
+
+	<div class="parallax-container" id="paralxax-cont2">
+	    <div class="parallax">
+	    	<img src="./images/pasilloMas.jpg">
+    	</div>
+		<!-- <h1 class="deep-purple-text text-lighten-5"><strong>Let's start the trip together</strong></h1> -->
+		<h1 class="pink-text text-accent-4"><strong>Because the place matters</strong></h1>
+  	</div>
+	  	
+  	<div class="section white blue-grey-text text-darken-4" id="cont2">
+	    	 
+			<h2 class="grey-text text-darken-1">Welcome to a wonderful Masía</h2>
+	    	<img alt="" src="./images/mas_can_riera_icon.jpg">
+	    	<p><a class="grey-text text-darken-1" href="http://mascanriera.com">Visit the website</a></p>
+    </div>
+	
+
+	<div class="parallax-container" id="paralxax-cont3">
+	    <div class="parallax">
+	    	<img src="./images/hotel.jpg">
+    	</div>
+		<h2 class="orange-text text-accent-4">Need some accomodation ideas?</h2>
+  	</div>
+
+ <div class="section white blue-grey-text text-darken-4" id="cont3">
+	    	 
+			<h2 class="grey-text text-darken-1">Hotel Don Candido</h2>
+	    	<img alt="" src="./images/donCandido_icon.jpg">
+	    	<p><a class="grey-text text-darken-1" href="http://www.hoteldoncandido.com/">Visit the website</a></p>
+ </div>
 
 </body>
+
+<footer class="page-footer grey darken-4">
+          <div class="container">
+            <div class="row">
+              
+              <div class="col l6 s12">
+                <h5 class="white-text">Please, send us your questions</h5>
+                <h6 class="grey-text text-lighten-4">Share with us your suggestions.</h6>
+				<p class="grey-text text-lighten-1"> We would love to hear about your ideas and comments</p>
+              </div>
+              
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text"><strong>Contacts</strong></h5>
+                <h6 class="grey-text text-lighten-1">Emails : </h6>
+                <ul>
+                  	<li><a class="grey-text text-lighten-3" href="mailto:vicentemg87@gmail.com">Vicente's email</a></li>
+                  	<li><a class="grey-text text-lighten-3" href="mailto:marperpri@gmail.com">Marta's email</a></li>
+               	</ul>
+                
+                <h6 class="grey-text text-lighten-1">Phone/Whatsapp : </h6>
+                <ul>
+                  	<li class="grey-text text-lighten-3" >Home : +34 XXX.XXX.XXX</li>
+                  	<li class="grey-text text-lighten-3" >Vicente : +34 617.014.140</li>
+                  	<li class="grey-text text-lighten-3" >Marta : +34 650.753.279</li>
+                </ul>
+              </div>
+            </div>  
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 Copyright: Vicente Muñoz
+            </div>
+          </div>
+        </footer>
 
 </html>

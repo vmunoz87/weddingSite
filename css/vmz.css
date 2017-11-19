@@ -3,98 +3,60 @@
  * Copyright 2016 - VMZ
  */
         
-        html {
-            font-family: Roboto;
-        }
+html {
+	font-family: Roboto;
+}
         
 		
-		body{
+/*body{
 		background-color:black;
 		color: silver;
 		}
-        .vmz-navbar-text {
-            color: black;
-			
-        }
+*/       
 
-        #modal_confirmerDon{
-            height: 500px;
-        }
-        #main-cont {
-            text-align: center;
-            padding-top: 300px;
-            font-family: "Roboto", sans-serif;
-            /*background-image: url("../images/maMaison_psdp.jpg");*/
-			height: 950px;
-        }
+.parallax-container {
+	height: 600px;
+}
+        
+#countDown{
+	font-size: 25px;
+	text-align: center;
+}
 
-        .vmz-index-container1 {
-            margin-top: 0;
-            margin-bottom: 0;
-            text-align: center;
-            padding-top: 200px;
-            height: 650px;
-            vertical-align: top;
-        }
-        
-        .vmz-index-container2 {
-            margin-top: 0;
-            margin-bottom: 0;
-            height: 650px;
-            background: lightblue;
-            text-align: center;
 
-			
-			
-			
-			        /*
-        #allinsc {
-            margin-top: 50px;
-        }
-        
-        insc_Civilite {
-            text-align: center;
-        }
-        
-        #linkInscription {
-            text-align: center;
-            margin-top: -5px;
-            margin-bottom: 5px;
-        }
-        
-        #formInscription {
-            text-align: center;
-        }
-        
-        #rowInsc {
-            text-align: center;
-            align-content: center;
-            margin-bottom: 10px;
-        }
-        
-        #rememberInsc {
-            text-align: center;
-            align-content: center;
-            margin-top: 10px;
-        }
-        
-        #logoInsc {
-            align-content: center;
-            margin-top: -5px;
-        }
-        
-        .vmz-insc {
-            width: 500px;
-            padding-top: 50px;
-            text-align: center;
-        }
-        
-        #validerConnexion {
-            text-align: center;
-            align-items: center;
-            padding: 0px 6rem;
-            margin-top: -15px;
-            /*color: white;
-            background: #ee6e73;
-        }
-        */
+  
+#paralxax-cont1 {
+	text-align: center;
+    padding-top: 350px;
+	height: 950px;
+}
+
+
+#paralxax-cont2 {
+	text-align: center;
+    padding-top: 350px;
+	height: 750px;
+}
+
+#paralxax-cont3 {
+	text-align: left;
+    padding-top: 50px;
+	height: 650px;
+	of
+}
+	
+#cont1{
+	height: 350px;
+	text-align: center;
+}
+
+#cont2 {
+	height: 350px;
+	text-align: center;
+}
+
+#cont3 {
+	height: 350px;
+	text-align: center;
+}
+
