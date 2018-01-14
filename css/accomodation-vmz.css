@@ -2,32 +2,84 @@
 		* Personalises css for Vicente Muñoz weddingSite, specificaly for the accomodation.html page
  		* Author: Vicente Muñoz
  		* Date: 19-11-2017
- 		* Copyright 2017 - Vicente Muñoz
+ 		* Copyright 2018 - Vicente Muñoz
  */
-        
-        
-#hotel-cont1{
-	 
+ 
+html {
+	font-family: fantasy, sans-serif;
 }
-
-#hotel-cont1-row1{
+        
+#introRow {
+	padding-right : 75px;
+	padding-top: 150px;
+	height: 900px;
 	
 }
 
-#hotel-cont1-row2{
-	//padding-top: 50px;
+
+#introRow_tittle {
+
+	
+	}
+#introRow_subtittle {
+
+	}
+	
+	
+#paralxax-cont1 {
 	text-align: center;
+    padding-top: 350px;
+	height: 950px;
+	display: inline;
 }
 
-#hotel-cont1-row3{
-		text-align: center;
+
+#whiteSpaceCandido{
+	height: 250px;
 }
 
-#hotel1-goodPoints{
+#whiteSpaceTerrasspark{
+	height: 250px;
+}
+
+#whiteSpaceCataloniaVerdi{
+	height: 250px;
+}
+
+
+
+#row_candido{
+
+	height: 700px;
+	padding-left: 50px;
+	padding-top: 50px;
+}
+#candidoPoint{
+	/*padding-top: 15px;*/
+	padding-left: 125px;
 	
 }
 
-hotel1-BadPoints{
+#row_terrassaPark{
+
+	height: 700px;
+	padding-left: 50px;
+	padding-top: 50px;
+}
+#terrassaParkPoint{
+	/*padding-top: 15px;*/
+	padding-left: 125px;
 	
+}
+
+#row_cataloniaVerdi{
+
+	height: 700px;
+	padding-left: 50px;
+	padding-top: 50px;
+}
+#terrassaParkPoint{
+	/*padding-top: 15px;*/
+	padding-left: 125px;
 	
 }

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- TODO :
+	- Hotel description & prices
+	- Location & maps
+	- Advices?
+	- Translate FR/ES
+ -->
+
+<head>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="./css/materialize.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="./css/accomodation-vmz.css" media="screen,projection" />
+	<link type="text/css" rel="stylesheet" href="./css/main-vmz.css" media="screen,projection" />
+	
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="./js/materialize.js"></script>
+	<script type="text/javascript" src="./js/vmz.js"></script>
+    
+    
+    <title>Marta & Vicente</title>
+
+</head>
+
+<body>
+<!-- TODO : Navigation bar-->
+
+
+<nav>
+    <div class="nav-wrapper deep-orange lighten-4">
+      <a href="#" class="brand-logo center">Wedding Marta & Vicente</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#footer">Contacts</a></li>
+      </ul>
+    </div>
+</nav>
+
+ <!-- Intro Page-->
+ <div id="introRow" class="parallax-container">
+	     <div class="container" id="introRow_tittle">
+	        <h1 class="header center teal-text text-lighten-1">Let's get relaxed</h1>
+	     </div>
+	     
+	     <div class="row center" id="introRow_subtittle">
+	        <!-- <div class="row center" id="introRow_subtittle"> -->
+	          <h5 class="header col s12 grey-text text-darken-1">Here are some selection of hotels we made for you</h5>
+	     </div>
+	</div>
+
+    <!-- <div class="parallax"><img src="images/pillow-2436911_640.jpg" alt="Unsplashed background img 1" style="display: block; transform: translate3d(-50%, 239px, 0px);"></div> -->
+    <div class="parallax"><img src="images/pillow-2436911_640.jpg" style="display: block;"></div>
+  
+
+<!-- Hotel cards container -->
+
+    <div class="section white">
+	    <div class="row container" id="whiteSpaceCandido">
+			<h1 class="header center teal-text text-darken-3 light">Hotel Don Candido</h1>
+			<h2 class="header center teal-text text-darken-1 light">Terrassa</h2>
+	    	<h3 class="teal-text text-lighten-4 center">
+	    		<i class="small material-icons">star</i>
+	    		<i class="small material-icons">star</i>
+	    		<i class="small material-icons">star</i>
+	    		<i class="small material-icons">star</i>
+	    	</h3>
+	    </div>
+    </div>
+
+<!-- TODO : integrate AJAX GoogleMap? -->
+       <div class="row grey lighten-5" id="row_candido">
+        <div class="col l6 m4 s12">
+          <div class="card  large ">
+            <div class="card-image"> 
+              <img src="images/Hotel-don-candido.jpg">
+              <!-- <span class="card-title white-text text-lighten-4">Hotel Don Candido</span> -->
+            </div>
+            <div class="card-content">
+              <p>El hotel Don Cándido está situado en la ciudad de Terrassa, a 25 minutos en coche de Barcelona y del aeropuerto internacional de El Prat. El circuito de Catalunya, ubicado en Montmeló, se encuentra a 20 minutos en coche.</p>
+            </div>				
+            <div class="card-action">
+              <a href="#">Visit the WebSite</a>
+              <a href="static/candido/Enlace _Vicente_y_Marta_18_Agosto.pdf">See the special offer we got for you</a>
+            </div>
+          </div>
+        </div>
+        
+                    <!-- Good points by VMZ -->
+	         
+
+            <div class="row col l6 m4 s12" id="candidoPoint"> 
+		     
+		     <div class="row grey lighten-4" id="candido_MainServices">
+		     <div class="col l12 m4 s12 row center">
+		      	<h5 class="grey-text text-darken-4"><strong>Main services</strong></h5>
+	     	 </div>
+		     
+		      <div class="col l6 m4 s12 row center">
+		        <!-- Promo Content 1 goes here -->
+		        <h5 class="teal-text text-darken-4 center">Location</h5>
+		        <h5 class="green-text text-lighten-2 center">
+		        <i class="medium material-icons">location_on</i>
+		        <i class="medium material-icons">home</i>
+		        
+		        
+		      </h5>
+		      </div>
+		      <div class="col l6 m412 s12 row center">
+		        <!-- Promo Content 3 goes here -->
+	        <h5 class="teal-text text-darken-4">Close to downtown</h5>
+	        <h5 class="green-text text-lighten-2">
+		        <i class=" medium material-icons">location_city</i>  
+		        <i class=" medium material-icons">train</i>
+		        <i class=" medium material-icons">restaurant_menu</i>
+		        </h5>
+		      </div>
+		      
+		       <div class="col l6 m12 s4 row center">
+		        <!-- Promo Content 3 goes here -->
+		        <h5 class="teal-text text-darken-4">Confort</h5>
+		        <h5 class="green-text text-lighten-2">
+		        <i class=" medium material-icons">weekend</i>  
+		        </h5>
+		      </div>
+		      
+		      <div class="col l6 m12 s12 row center">
+		        <!-- Promo Content 2 goes here -->
+		        <h5 class="teal-text text-darken-4">Price</h5>
+		        <h5 class="orange-text text-lighten-2">
+		        <i class=" medium material-icons">attach_money</i>  
+		        <i class=" medium material-icons">attach_money</i>
+		        </h5>
+		      </div>
+		      </div>
+
+ 			<div class="row grey lighten-4" id="services">		      
+	         <div class="col l12 m12 s12 row center">
+		      	<h5 class="grey-text text-darken-4">Other services available</h5>
+		      </div>
+		      
+		      <div class="col l6 m12 s12 row center">
+		        <!-- Promo Content 2 goes here -->
+		        <h6 class="teal-text text-darken-4">Free cancelation</h6>
+		        <h6 class="grey-text text-darken-2">
+		        <i class=" small material-icons">cancel</i>  
+		        </h6>
+		        </div>
+
+		        <div class="col l6 m12 s12 row center">
+		        <h6 class="teal-text text-darken-4">Parking</h6>
+		        <h6 class="grey-text text-darken-2">
+		        <i class=" small material-icons">local_parking</i>  
+		        </h6>
+		        </div>
+		      </div>
+		      
+		      <!-- <div style="z-index: 1; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px;"></div> -->
+        </div>
+        </div>
+        
+
+    <div class="section white">
+	    <div class="row container" id="whiteSpaceTerrasspark">
+			<h1 class="header center teal-text text-darken-3 light">Hotel Terrassa Park</h1> 
+			<h2 class="header center teal-text text-darken-1 light">Terrassa</h2>
+	    	<h3 class="teal-text text-lighten-4 center">
+	    		<i class="small material-icons">star</i>
+	    		<i class="small material-icons">star</i>
+	    		<i class="small material-icons">star</i>
+	    	</h3>
+	    </div>
+    </div>
+<div class="row grey lighten-5" id="row_terrassaPark">
+        <div class="col l6 m4 s12">
+          <div class="card large">
+            <div class="card-image"> 
+              <img src="images/hotel-terrassa-park.jpg">
+              <!-- <span class="card-title white-text text-lighten-4">Hotel Don Candido</span> -->
+            </div>
+            <div class="card-content">
+              
+              <p>El Terrassa Park está situado en Terrassa, a sólo 20 minutos de Barcelona. El hotel está a 30 minutos en coche de Montserrat y del aeropuerto de Barcelona, y a 20 minutos del circuito de carreras de Montmeló. </p>
+              <br>
+              <p>A tan solo 200 metros del hotel se encuentra el centro de ocio Parc Vallès con el cine, bares, tiendas y una bolera.</p>              
+            </div>				
+            <div class="card-action">
+              <a href="#">Visit the WebSite</a>
+              <a href="static/candido/Enlace _Vicente_y_Marta_18_Agosto.pdf">See the special offer we got for you</a>
+            </div>
+          </div>
+        </div>
+        
+                    <!-- Good points by VMZ -->
+	         
+
+            <div class="row col l6 m4 s12" id="terrassaParkPoint"> 
+		     
+		     <div class="row grey lighten-4" id="terrassaPark_MainServices">
+		     <div class="col l12 m4 s12 row center">
+		      	<h5 class="grey-text text-darken-4"><strong>Main services</strong></h5>
+	     	 </div>
+		     
+		     <div class="col l6 m12 s12 row center">
+		        <!-- Promo Content 2 goes here -->
+		        <h5 class="teal-text text-darken-4">Price</h5>
+		        <h5 class="green-text text-lighten-2">
+		        <i class=" medium material-icons">attach_money</i>  
+		        </h5>
+		      </div>
+		      
+		      <div class="col l6 m4 s12 row center">
+		        <!-- Promo Content 1 goes here -->
+		        <h5 class="teal-text text-darken-4 center">Location</h5>
+		        <h5 class="orange-text text-lighten-2 center">
+		        <i class="medium material-icons">location_on</i>
+		        <i class=" medium material-icons">home</i>
+		      </h5>
+		      
+
+		      </div>
+		      <div class="col l6 m412 s12 row center">
+		        <!-- Promo Content 3 goes here -->
+		        <h5 class="teal-text text-darken-4">Close to downtown</h5>
+		        <h5 class="orange-text text-lighten-2">
+		        <i class=" medium material-icons">location_city</i>  
+		        <i class=" medium material-icons">train</i>
+		        <i class=" green-text text-lighten-2 medium material-icons">restaurant_menu</i>
+		        </h5>
+		      </div>
+		      
+		       <div class="col l6 m12 s4 row center">
+		        <!-- Promo Content 3 goes here -->
+		        <h5 class="teal-text text-darken-4">Confort</h5>
+		        <h5 class="green-text text-lighten-2">
+		        <i class=" medium material-icons">weekend</i>  
+		        </h5>
+		      </div>
+		      
+		       </div>
+
+ 			<div class="row grey lighten-4" id="services">		      
+	         <div class="col l12 m12 s12 row center">
+		      	<h5 class="grey-text text-darken-4">Other services available</h5>
+		      </div>
+		      
+		      <div class="col l4 m12 s12 row center">
+		        <!-- Promo Content 2 goes here -->
+		        <h6 class="teal-text text-darken-4">Free cancelation</h6>
+		        <h6 class="grey-text text-darken-2">
+		        <i class=" small material-icons">cancel</i>  
+		        </h6>
+		        </div>
+		        
+				<div class="col l4 m12 s12 row center">
+			        <h6 class="teal-text text-darken-4">Parking</h6>
+			        <h6 class="grey-text text-darken-2">
+			        <i class=" small material-icons">local_parking</i>  
+			        </h6>
+			        </div>
+		
+
+		        <div class="col l4 m12 s12 row center">
+		        <h6 class="teal-text text-darken-4">Shopping center</h6>
+		        <h6 class="grey-text text-darken-2">
+		        <i class=" small material-icons">shopping_cart</i>  
+		        </h6>
+		        </div>
+		      </div>
+		            	</div>
+		         
+		      <!--  <div style="z-index: 1; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px;"></div> -->
+        </div>
+
+    <div class="section white">
+	    <div class="row container" id="whiteSpaceCataloniaVerdi">
+			<h1 class="header center teal-text text-darken-3 light">Hotel Catalonia Verdi</h1> 
+			<h2 class="header center teal-text text-darken-1 light">Sabadell</h2>
+	    	<h3 class="teal-text text-lighten-4 center">
+	    		<i class="small material-icons">star</i>
+	    		<i class="small material-icons">star</i>
+	    		<i class="small material-icons">star</i>
+	    		<i class="small material-icons">star</i>
+	    	</h3>
+	    </div>
+    </div>
+
+<div class="row grey lighten-5" id="row_cataloniaVerdi">
+        <div class="col l6 m4 s12">
+          <div class="card  large ">
+            <div class="card-image"> 
+              <img src="images/cataloniaVerdi.jpg">
+              <!-- <span class="card-title white-text text-lighten-4">Hotel Don Candido</span> -->
+            </div>
+            <div class="card-content">
+              <p>
+              	Este hotel está bien equipado y situado en el centro comercial de Sabadell. Ofrece WiFi gratuita y habitaciones confortables con mucha luz natural.
+              	<br>El Catalonia Gran Hotel Verdi está cerca de las tiendas y museos de Sabadell. Barcelona está a solo 20 minutos.
+              
+              </p>
+            </div>				
+            <div class="card-action">
+              <a href="#">Visit the WebSite</a>
+              <a href="static/candido/Enlace _Vicente_y_Marta_18_Agosto.pdf">See the special offer we got for you</a>
+            </div>
+          </div>
+        </div>
+        
+                    <!-- Good points by VMZ -->
+	         
+
+            <div class="row col l6 m4 s12" id="cataloniaVerdiPoint"> 
+		     
+		     <div class="row grey lighten-4" id="cataloniaVerdi_MainServices">
+		     <div class="col l12 m4 s12 row center">
+		      	<h5 class="grey-text text-darken-4"><strong>Main services</strong></h5>
+	     	 </div>
+		     
+		      <div class="col l6 m4 s12 row center">
+		        <!-- Promo Content 1 goes here -->
+		        <h5 class="teal-text text-darken-4 center">Location</h5>
+		        <h5 class="green-text text-lighten-2 center">
+		        <i class="medium material-icons">location_on</i>
+		        <i class="red-text text-lighten-2 medium material-icons">home</i>
+		        
+		        
+		      </h5>
+		      </div>
+		      <div class="col l6 m412 s12 row center">
+		        <!-- Promo Content 3 goes here -->
+		        <h5 class="teal-text text-darken-4">Close to downtown</h5>
+		        <h5 class="green-text text-lighten-2">
+		        <i class=" medium material-icons">location_city</i>  
+		        <i class=" orange-text text-lighten-2 medium material-icons">train</i>
+		        <i class=" medium material-icons">restaurant_menu</i>
+		        </h5>
+		      </div>
+		      
+		       <div class="col l6 m12 s4 row center">
+		        <!-- Promo Content 3 goes here -->
+		        <h5 class="teal-text text-darken-4">Confort</h5>
+		        <h5 class="green-text text-lighten-2">
+		        <i class=" medium material-icons">weekend</i>  
+		        </h5>
+		      </div>
+		      
+		      <div class="col l6 m12 s12 row center">
+		        <!-- Promo Content 2 goes here -->
+		        <h5 class="teal-text text-darken-4">Price</h5>
+		        <h5 class="orange-text text-lighten-2">
+		        <i class=" medium material-icons">attach_money</i> 
+		        </h5>
+		      </div>
+		      </div>
+
+ 			<div class="row grey lighten-4" id="services">		      
+	         <div class="col l12 m12 s12 row center">
+		      	<h5 class="grey-text text-darken-4">Other services available</h5>
+		      </div>
+		      
+		      <div class="col l6 m12 s12 row center">
+		        <!-- Promo Content 2 goes here -->
+		        <h6 class="teal-text text-darken-4">Free cancelation</h6>
+		        <h6 class="grey-text text-darken-2">
+		        <i class=" small material-icons">cancel</i>  
+		        </h6>
+		        </div>
+
+		        <div class="col l6 m12 s12 row center">
+		        <h6 class="teal-text text-darken-4">Parking</h6>
+		        <h6 class="grey-text text-darken-2">
+		        <i class=" small material-icons">local_parking</i>  
+		        </h6>
+		        </div>
+		      </div>
+		      <!-- <div style="z-index: 1; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px;"></div> -->
+        </div>
+        </div>
+</body>
+
+<!-- TODO : Call from another html page (Maintenance matters) -->
+<footer class="page-footer deep-orange lighten-4" id="footer">
+          <div class="container">
+            <div class="row">
+              
+              <div class="col l6 s12">
+                <h5 class="grey-text">Please, send us your questions</h5>
+                <h6 class="grey-text text-lighten-5">Feel free to contact our parents too for any doubt</h6>
+				
+              </div>
+              
+              <div class="col l2 offset-l1 s12">
+                <h5 class="grey-text"><strong>Married contacts</strong></h5>
+                <h6 class="grey-text text-darken-1">Emails : </h6>
+                <ul>
+                  	<li><a class="grey-text text-lighten-5" href="mailto:vicentemg87@gmail.com">Vicente</a></li>
+                  	<li><a class="grey-text text-lighten-5" href="mailto:marperpri@gmail.com">Marta</a></li>
+               	</ul>
+                
+                <h6 class="grey-text text-darken-1">Phone/Whatsapp : </h6>
+                <ul>
+                  	<li class="grey-text text-lighten-5" >Home : +34 XXX.XXX.XXX</li>
+                  	<li class="grey-text text-lighten-5" >Vicente : +34 617.014.140</li>
+                  	<li class="grey-text text-lighten-5" >Marta : +34 650.753.279</li>
+                </ul>
+              </div>
+              
+              
+              
+              <div class="col l2 offset-l1 s12">
+                <h5 class="grey-text"><strong>Parents Contacts</strong></h5>
+                <h6 class="grey-text text-darken-1">Emails : </h6>
+                <ul>
+                  	<li><a class="grey-text text-lighten-5" href="mailto:amnec.informatique@wanadoo.fr">Teo</a></li>
+                  	<li><a class="grey-text text-lighten-5" href="mailto:elnuplo@telefonica.net">Paco</a></li>
+               	</ul>
+                
+                <h6 class="grey-text text-darken-1">Phone/Whatsapp : </h6>
+                <ul>
+                  	<li class="grey-text text-lighten-5" >Teo  :  +33 XXX.XXX.XXX </li>
+                  	<li class="grey-text text-lighten-5" >Paco : +34 XXX.XXX.XXX</li>
+                </ul>
+              </div>
+            </div>  
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 Copyright: Vicente Muñoz
+            </div>
+          </div>
+        </footer>
+</html>
